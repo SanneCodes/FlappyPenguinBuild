@@ -2,8 +2,8 @@
 cd /var/www
 cd html
 cd Build/
-sudo brotli --decompress FlappyPengunBuild.data.br FlappyPengunBuild.framework.js.br FlappyPengunBuild.wasm.br
-sudo rm -v FlappyPengunBuild.br FlappyPengunBuild.js.br FlappyPengunBuild.wasm.br
-sudo mv FlappyPengunBuild.data FlappyPengunBuild.data.br
-sudo mv FlappyPengunBuild.framework.js FlappyPengunBuild.framework.js.br
-sudo mv FlappyPengunBuild.wasm FlappyPengunBuild.wasm.br
+sudo brotli --decompress FlappyPenguinBuild.data.br FlappyPenguinBuild.framework.js.br FlappyPenguinBuild.wasm.br
+sudo rm -v FlappyPenguinBuild.br FlappyPenguinBuild.js.br FlappyPenguinBuild.wasm.br
+sudo mv FlappyPenguinBuild.data FlappyPenguinBuild.data.br
+sudo mv FlappyPenguinBuild.framework.js FlappyPenguinBuild.framework.js.br
+sudo mv FlappyPenguinBuild.wasm FlappyPenguinBuild.wasm.br
