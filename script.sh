@@ -1,6 +1,4 @@
 #!/bin/sh
-cd /var/www
-cd html
 cd Build/
 sudo brotli --decompress FlappyPenguinBuild.data.br FlappyPenguinBuild.framework.js.br FlappyPenguinBuild.wasm.br
 sudo rm -v FlappyPenguinBuild.data.br FlappyPenguinBuild.framework.js.br FlappyPenguinBuild.wasm.br
